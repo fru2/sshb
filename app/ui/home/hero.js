@@ -4,7 +4,7 @@ import React from 'react'
 export default function Hero() {
 
   return (
-    <>
+    <div className="h-min align-middle justify-center py-[140px]">
       <h1 className='uppercase leading-none text-center text-6xl font-medium'>
         sustaining<br></br>
         <span className='text-black'>sustainable</span><br></br>
@@ -24,6 +24,6 @@ export default function Hero() {
           color: 'rgba(0, 0, 0, 0.7)'
         }}>Invest now</Button>
       </div>
-    </>
+    </div>
   )
 }

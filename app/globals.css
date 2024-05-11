@@ -32,12 +32,40 @@ body {
   }
 } */
 
+*{
+  box-sizing: border-box;
+}
+
 
 body{
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(113, 3, 16, 0.800);
 }
 
 
 .gray{
   filter: invert(28%) sepia(52%) saturate(6%) hue-rotate(68deg) brightness(88%) contrast(88%);
+}
+
+/* 
+.bg-blur{
+  backdrop-filter: blur(20px);
+} */
+
+
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e4e4e4; /* Change the background color */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #e38393; /* Change the thumb color */
+  border-radius: 6px;
+  border: 2px solid #e4e4e4;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #5a5a68;
 }
