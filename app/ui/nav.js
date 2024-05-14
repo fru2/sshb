@@ -20,7 +20,7 @@ export default function Nav({ disable }) {
   }
 
   return (
-    <nav className='w-full flex justify-between items-center px-4 sm:px-6 lg:px-8 py-4 fixed top-0 border-b-[1px] max-h-[4.5rem] bg-white bg-opacity-60 z-50 bg-blur'>
+    <nav className='w-full flex justify-between items-center px-4 sm:px-6 lg:px-8 py-4 fixed top-0 border-b-[1px] max-h-[4.5rem] bg-white bg-opacity-60 z-50 bg-blur text-black'>
       {/* TODO: Discard changes before commiting */}
       {/* <Link href='/' className='h-16'><Image src={logoPesu} alt='PES Logo' className='h-full w-full' priority/></Link> */}
       <span className='uppercase'>Social something</span>

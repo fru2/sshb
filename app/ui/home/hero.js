@@ -13,12 +13,12 @@ export default function Hero() {
 
       <div className='flex gap-2 justify-center mt-8'>
         <Button className='w-36' variant='contained' style={{
-          backgroundColor: 'rgba(0, 0, 0, 0.7)',
+          backgroundColor: 'rgba(113, 3, 16, 0.800)',
           borderRadius: '2px',
           boxShadow: 'none',
         }}>Projects</Button>
         <Button className='w-36' variant='outlined' style={{
-          borderColor: 'rgba(0, 0, 0, 0.7)',
+          borderColor: 'rgba(113, 3, 16, 0.800)',
           borderRadius: '2px',
           boxShadow: 'none',
           color: 'rgba(0, 0, 0, 0.7)'
